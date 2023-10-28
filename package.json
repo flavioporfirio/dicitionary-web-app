@@ -1,0 +1,22 @@
+{
+  "name": "dictionary-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.1"
+  },
+  "dependencies": {
+    "core-js": "^3.33.1",
+    "live-server": "^1.2.2",
+    "regenerator-runtime": "^0.14.0"
+  }
+}

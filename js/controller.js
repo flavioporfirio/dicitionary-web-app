@@ -30,7 +30,7 @@ const controlLoadWord = async function () {
     await model.loadWord(input.value);
     input.value = "";
 
-    // console.log(model.state.search);
+    console.log(model.state.search);
     wordView.render(model.state.search);
     wordView.addHandlerPlayButton();
   } catch (err) {
